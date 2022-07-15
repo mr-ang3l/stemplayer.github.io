@@ -1,0 +1,106 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#wrapper {
+    background: white;
+}
+
+img.img1 {
+    width: 450px;
+    margin: auto;
+    height: 290px;
+}
+
+p {
+    margin-bottom: 15px;
+    padding: 5px;
+    line-height: 0px;
+}
+
+#buttons {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+a, button {
+    color:black;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border: 0px;
+    border-bottom: 4px;
+    border-color: transparent;
+}
+
+a.faq {
+    display: inline-block;
+}
+
+a:hover, button:hover {
+    border-bottom: 4px;
+    border-style: solid;
+    border-color: black;
+    animation-name: borderline;
+    animation-duration: 1s;
+}
+
+a::after, button::after {
+    color:black;
+}
+
+button {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor:pointer ;
+}
+
+input {
+    width: 150px;
+    height: 1.6em;
+    border-style: none;
+}
+
+input::placeholder {
+    font-size: 170%;
+    font-weight: bold;
+}
+
+input:focus, input:focus-visible, input:active {
+    border-width: 0px;
+    border: none;
+}
+
+input[type=submit] {
+    background-color: white;
+    border: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+@keyframes borderline {
+    from {border-color: transparent;}
+    to {border-color: black;}
+}
+
+
+
+form.hide, button.hide {
+    display: none;
+    width:fit-content;
+    margin: auto;
+}
