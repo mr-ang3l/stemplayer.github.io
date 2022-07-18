@@ -10,4 +10,4 @@ function change(e) {
     }
 }
 
-button.addEventListener('click', change);
+button.addEventListener('click', change, true);
