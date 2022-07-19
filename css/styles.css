@@ -18,6 +18,8 @@ body.body2 {
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
+    height: 100vh;
+    width: 100vw;
 }
 
 #wrapper {
@@ -57,7 +59,6 @@ p {
 }
 
 #buttons {
-    width: 500px;
     margin: auto;
     text-align: center;
 }
