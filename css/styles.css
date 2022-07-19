@@ -6,8 +6,8 @@ body {
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 body.body2 {
@@ -18,8 +18,8 @@ body.body2 {
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 #wrapper {
@@ -31,9 +31,9 @@ body.body2 {
 }
 
 img.img1 {
-    width: 450px;
+    width: 50%;
+    height: 50%;
     margin: auto;
-    height: 290px;
 }
 
 p {
@@ -116,8 +116,8 @@ button {
 }
 
 input {
-    width: 150px;
-    height: 1.6em;
+    width: fit-content;
+    height: 1.9em;
     border-style: none;
 }
 
